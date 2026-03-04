@@ -16,12 +16,15 @@ Welcome to the EECS 470 LC2K ISA specification! This document describes the asse
 
 ## Instruction Encodings
 
-TODO: Fix these to show up properly in dark mode.
+![R-Type Encoding](images/r-type-light.svg#gh-light-mode-only)
+![I-Type Encoding](images/i-type-light.svg#gh-light-mode-only)
+![J-Type Encoding](images/j-type-light.svg#gh-light-mode-only)
+![O-Type Encoding](images/o-type-light.svg#gh-light-mode-only)
 
-![R-Type Encoding](images/r-type.svg)
-![I-Type Encoding](images/i-type.svg)
-![J-Type Encoding](images/j-type.svg)
-![O-Type Encoding](images/o-type.svg)
+![R-Type Encoding](images/r-type-dark.svg#gh-dark-mode-only)
+![I-Type Encoding](images/i-type-dark.svg#gh-dark-mode-only)
+![J-Type Encoding](images/j-type-dark.svg#gh-dark-mode-only)
+![O-Type Encoding](images/o-type-dark.svg#gh-dark-mode-only)
 
 ## Instruction Set
 

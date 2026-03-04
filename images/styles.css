@@ -1,7 +1,0 @@
-<style>
-    g { stroke: black; }
-
-    @media (prefers-color-scheme: dark) {
-      g { stroke: white; }
-    }
-</style>
