@@ -39,10 +39,11 @@ Welcome to the EECS 470 LC2K ISA specification! This document describes the asse
 | `halt`   | O-type   | `0x6`  | N/A                                                                                                           |
 | `noop`   | O-type   | `0x7`  | N/A                                                                                                           |
 | `addi`   | I-type   | `0x8`  | `regB = regA + offset`                                                                                        |
-| `blt`    | I-type   | `0x9`  | `PC = (regA < regB) ? PC + 1 + offset : PC + 1`<br>NOTE: Assume values in `regA` and `regB` are signed        |
-| `bltu`   | I-type   | `0xA`  | `PC = (regA < regB) ? PC + 1 + offset : PC + 1`<br>NOTE: Assume values in `regA` and `regB` are unsigned      |
-| `lsr`    | J-type   | `0xB`  | `regB = regA >> 1`<br>NOTE: Assume value in `regA` is unsigned                                                |
-| `asr`    | J-type   | `0xC`  | `regB = regA >> 1`<br>NOTE: Assume value in `regA` is signed                                                  |
+| `nand`   | R-type   | `0x9`  | `destReg = ~(regA & regB)`                                                                                        |
+| `blt`    | I-type   | `0xA`  | `PC = (regA < regB) ? PC + 1 + offset : PC + 1`<br>NOTE: Assume values in `regA` and `regB` are signed        |
+| `bltu`   | I-type   | `0xB`  | `PC = (regA < regB) ? PC + 1 + offset : PC + 1`<br>NOTE: Assume values in `regA` and `regB` are unsigned      |
+| `lsr`    | J-type   | `0xC`  | `regB = regA >> 1`<br>NOTE: Assume value in `regA` is unsigned                                                |
+| `asr`    | J-type   | `0xD`  | `regB = regA >> 1`<br>NOTE: Assume value in `regA` is signed                                                  |
 
 ## Assembly Language Syntax
 
